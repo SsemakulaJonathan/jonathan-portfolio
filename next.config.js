@@ -12,14 +12,26 @@
 // module.exports = nextConfig
 
 
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   output: 'export',
+//   images: {
+//     unoptimized: true,
+//   },
+//   assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
+//   basePath: process.env.NODE_ENV === 'production' ? '' : '',
+// }
+
+// module.exports = nextConfig
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  // Ensure your repository name is added to the base path if it's not using a custom domain yet
+  basePath: process.env.NODE_ENV === 'production' ? '/jonathan-portfolio' : '',
 }
 
 module.exports = nextConfig
