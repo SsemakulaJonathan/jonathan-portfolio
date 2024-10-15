@@ -27,21 +27,3 @@
     "typescript": "^5"
   }
 }
-
-{
-  "name": "jonathan-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    // ... your dependencies ...
-  },
-  "devDependencies": {
-    // ... your dev dependencies ...
-  }
-}
