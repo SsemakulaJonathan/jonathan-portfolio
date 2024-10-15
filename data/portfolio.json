@@ -1,0 +1,297 @@
+{
+  "profile": {
+  "name": "JONATHAN SSEMAKULA",
+  "title": "AI & ROBOTICS ENGINEER",
+  "location": "M.ENG MECHATRONICS & ROBOTICS",
+  "about": "Jonathan is a dedicated Mechatronics and Robotics engineer currently pursuing a Master of Engineering at Universiti Teknologi Malaysia. He holds a Bachelor of Science in Computer Science from Makerere University and has a wealth of experience in autonomous robotics, control systems engineering, computer vision, and machine learning. Jonathan has worked on various robotics and IoT projects, bringing innovative solutions to real-world challenges.",
+  "email": "uhurussemakula069@gmail.com",
+  "phone": "+601119206232/+256788123717",
+  "address": "JOHOR BAHRU, JOHOR, MALAYSIA",
+  "image": "/images/profile.jpeg"
+},
+
+  "projects": [
+    {
+      "slug": "project-1",
+      "title": "Agrisonic",
+      "description": "Agrisonic is a portable, cost-effective soil testing and crop recommendation device designed to help farmers improve their crop yields by providing real-time data on key soil parameters.",
+      "image": "/images/agrisonic_background.jpeg",
+      "logo": "/images/agrisonic_logo.jpeg",
+      "role": "CEO",
+      "problem": "Ugandan farmers face challenges in maintaining consistent crop quality due to poor soil management practices. Soil testing labs are expensive and difficult to access for rural farmers, and many farmers lack the knowledge to interpret soil test results.",
+      "solution": "Agrisonic offers a user-friendly, affordable soil testing device that measures soil pH, moisture, temperature, and nutrient levels (NPK). It provides real-time data and tailored crop recommendations via a smartphone app, helping farmers make informed decisions to improve soil health and crop quality.",
+      "marketOpportunity": "With over 7.7 million agricultural households in Uganda and increasing smartphone penetration, Agrisonic has a large potential market. It addresses the gap in affordable soil management solutions for smallholder and commercial farmers, providing a comprehensive tool for precision agriculture.",
+      "businessModel": "Agrisonic operates on a direct sales model, offering devices through local agricultural supply stores and online platforms. Additionally, a subscription model for advanced features and services, such as continuous crop health monitoring, will be introduced.",
+      "fundingRequest": "Seeking funding to expand production capabilities, enhance product features, and support marketing efforts to reach smallholder farmers across Uganda and neighboring countries.",
+      "futureProspects": "Future plans include scaling to other regions in Uganda and East Africa, adding features such as weather prediction and water management, and exploring partnerships with government programs and agricultural cooperatives to improve product accessibility.",
+      "team": "Led by Jonathan Ssemakula, with a multidisciplinary team of agronomists, engineers, and software developers focused on developing and scaling the Agrisonic solution."
+    },
+
+    {
+      "slug": "project-2",
+      "title": "EcoSpin",
+      "description": "EcoSpin is dedicated to transforming plastic waste into high-quality recycled yarn and artificial wool, providing an alternative raw material for the textile industry while minimizing environmental impact.",
+      "image": "/images/ecospin_b2.jpg",
+      "logo": "/images/ecospin_logo.jpeg",
+      "role": "CEO",
+      "problem": "Uganda generates 600 tonnes of plastic waste daily, with only 6% being recycled. This plastic pollution presents a severe threat to the environment and a missed opportunity for sustainable raw material sourcing in the textile industry.",
+      "solution": "EcoSpin diverts plastic waste from landfills by recycling it into sustainable, cost-effective yarn and artificial wool for the textile industry. The process is designed to minimize carbon emissions and contribute to a circular economy.",
+      "marketOpportunity": "With the global recycled plastics market projected to grow to $120 billion by 2030, and the East African recycled plastics market expected to reach $1.2 billion by 2025, EcoSpin is well-positioned to capture a significant share of this market. Additionally, there is unmet demand for recycled textiles in Africa, estimated at $13 million.",
+      "businessModel": "EcoSpin operates on both B2B and B2C models. It supplies eco-friendly yarn to textile manufacturers and sells directly to consumers through physical and online stores. Revenue is generated from product sales, long-term supply contracts, and partnerships with distributors.",
+      "fundingRequest": "Seeking $50,000 in seed funding to establish a recycling facility, cover initial production costs, launch collection and marketing initiatives, and support R&D efforts.",
+      "futureProspects": "EcoSpin plans to scale operations, divert over 100 tons of plastic monthly, and expand to neighboring markets. The company will also launch eco-friendly wool alternatives and continue advancing sustainability in the textile industry.",
+      "team": "Led by Jonathan Ssemakula as CEO, the team includes experts in mechatronics, data science, and environmental sustainability. Advisors include environmental consultants and business leaders with experience in climate change and agricultural sustainability."
+    }
+
+  ],
+
+
+  "resume": {
+
+    "education": [
+      {
+        "year": "Sept 2023 - Nov 2025",
+        "institution": "Universiti Teknologi Malaysia",
+        "qualification": "Master of Engineering (M.Eng) in Mechatronics and Robotics"
+      },
+      {
+        "year": "Aug 2019 - Aug 2022",
+        "institution": "Makerere University",
+        "qualification": "Bachelor of Science in Computer Science"
+      },
+      {
+        "year": "Jan 2017 - Dec 2018",
+        "institution": "Mengo Senior School",
+        "qualification": "Advanced Level Certificate"
+      },
+      {
+        "year": "Jan 2013 - Dec 2016",
+        "institution": "Rines Secondary School",
+        "qualification": "Ordinary Level Certificate"
+      }
+    ],
+
+
+  "workExperience": [
+    {
+      "company": "Lexietech Solutions Ltd",
+      "position": "Projects Coordinator",
+      "date": "Jan 2022 - Sept 2023",
+      "description": "Provided technical expertise in strategic planning, implementation, and monitoring of projects, with a focus on the Livelihood and Environment sector. Supervised multiple projects, managed business-to-business mobile application development, tracked progress, and ensured projects were delivered on time and within budget. Additionally, coordinated presentations, managed project documentation, and assisted with onboarding and training new staff."
+    },
+    {
+      "company": "Prophet Research Company",
+      "position": "Data Scientist",
+      "date": "Oct 2021 - Feb 2023",
+      "description": "Coordinated consultancy activities, designed digital data collection tools, trained enumerators, and analyzed data using ODK, SPSS, STATA, Python, and R. Developed dashboards using Power BI, Tableau, and D3.js for data visualization and reporting. Supported ICT systems and provided training and technical assistance to users, ensuring accurate data collection and secure storage."
+    },
+    {
+      "company": "WIMEA-ICT, Makerere University",
+      "position": "Web Developer",
+      "date": "June 2021 - Oct 2021",
+      "description": "Developed the AdEMNEA project website to enhance project tracking and information sharing. Successfully managed over 95% of the site's development, contributing to the project's visibility and recruitment efforts."
+    },
+    {
+      "company": "Environmental Alert, Kampala",
+      "position": "Data Scientist",
+      "date": "Jan 2020 - June 2021",
+      "description": "Designed data collection tools and trained research assistants in digital data collection using KoboCollect and ODK. Collaborated with designers to create clean user interfaces, developed public and internal applications, and modified back-end server code. Managed large-scale design projects and contributed to front-end and back-end development tasks for corporate clients."
+    }
+  ],
+
+
+
+    "consultancyAssignments": [
+      {
+        "date": "Jun - Nov 2023",
+        "organization": "Expertise France",
+        "roleAndAssignment": "Modeling and Data Scientist for climate and energy auditing in public buildings in Kasese Municipality. Developed an energy and climate policy.",
+        "referencePerson": "Evelyn Mugume, Environmental Officer, Kasese Municipality"
+      },
+      {
+        "date": "Mar - Apr 2023",
+        "organization": "Lutheran World Federation",
+        "roleAndAssignment": "Lead Consultant under Prophet Research Company for the End of Project Evaluation of the EU-funded DINU project.",
+        "referencePerson": "Kadodi Agatha, M&E Specialist, DCA"
+      },
+      {
+        "date": "Jan 2023",
+        "organization": "GIZ",
+        "roleAndAssignment": "Data Scientist responsible for updating the District State of Environment Report for Napak District and developing an Environment Action Plan.",
+        "referencePerson": "Mukiibi Henry, Lead Consultant"
+      },
+      {
+        "date": "Jan - Feb 2023",
+        "organization": "Expertise France",
+        "roleAndAssignment": "Coordinator and Data Scientist under Voyage Technologies Ltd, assessing access to energy at household and institutional levels in the Greater Kampala Metropolitan Area.",
+        "referencePerson": "Mugisha Abubaker, M&E, GIS Specialist, WWF"
+      },
+      {
+        "date": "Nov 2022 - Jan 2023",
+        "organization": "Living Earth, Uganda",
+        "roleAndAssignment": "Tech Expert. Developed a food tracking system and dashboard for households impacted by the crude oil pipeline extension.",
+        "referencePerson": "John Niwamanya, Executive Director, Living Earth"
+      },
+      {
+        "date": "Oct - Dec 2022",
+        "organization": "Expertise France",
+        "roleAndAssignment": "Data Scientist under KENRO Consult Ltd. Developed an Urban Forest Management Action Plan and land use mapping for Kasese Municipality.",
+        "referencePerson": "Kadodi Agatha, M&E, KENRO Consult"
+      },
+      {
+        "date": "Oct - Nov 2022",
+        "organization": "Lutheran World Federation",
+        "roleAndAssignment": "Data Scientist. End of project evaluation of nutrition intervention in Palorinya Refugee Settlement.",
+        "referencePerson": "Mukiibi Henry, Lead Consultant"
+      },
+      {
+        "date": "July - Sept 2022",
+        "organization": "CODEA",
+        "roleAndAssignment": "Data Scientist. Baseline study for the LCF tree planting project in the Rwenzori Region.",
+        "referencePerson": "Muhindo Jonan, Executive Director, CODEA"
+      },
+      {
+        "date": "Feb - Apr 2022",
+        "organization": "Food and Agricultural Organization (FAO)",
+        "roleAndAssignment": "Data Scientist under Asante Mama. Conducted baseline study on cocoa production and end-market analysis of the cocoa value chain in the Katonga Catchment, Central Cattle Corridor.",
+        "referencePerson": "Mukiibi Henry, Technical Lead"
+      },
+      {
+        "date": "Dec 2021 - Apr 2022",
+        "organization": "DanChurch Aid (DCA)",
+        "roleAndAssignment": "Data Scientist. Feasibility study for productive use of electricity and developed a unique energy model for a mini-grid project in Yumbe.",
+        "referencePerson": "Mukiibi Henry, Lead Consultant"
+      }
+    ],
+
+
+
+   "projectsWorkedOn": [
+      {
+        "name": "Autonomous Navigation Robot",
+        "description": "Developed a robot implementing various navigation behaviors like voting, priority-based, and action-based systems. Gained proficiency in ROS, SLAM, and robot kinematics."
+      },
+      {
+        "name": "AdEMNEA Project Website",
+        "description": "Designed and developed the website for the AdEMNEA project at WIMEA-ICT, enhancing project tracking and information sharing."
+      },
+      {
+        "name": "UBS Lexie Investment App and Website",
+        "description": "Developed an application and website for managing investor records using Flutter and Firebase. The system facilitates management of investment records for Lexietech Solutions."
+      },
+      {
+        "name": "CampusFood App",
+        "description": "Developed a mobile application for campus students to order food and have it delivered on campus, using Flutter and Firebase."
+      },
+      {
+        "name": "TSS App and Website",
+        "description": "Built a system for tracking food distribution to people displaced by the crude oil pipeline system for Living Earth Uganda, enhancing transparency and accountability in food aid distribution."
+      }
+    ],
+
+
+
+    "ongoingProjects": [
+      {
+        "name": "Robot Bag for the Deaf",
+        "description": "An IoT system that converts speech to sign language and displays it on a screen to ease communication for the deaf. This project aims to bridge the communication gap between the deaf community and non-sign language users."
+      },
+      {
+        "name": "EthoEnergies: Clean Energy Cooking through Digital Ethanol Stoves",
+        "description": "Developing an improved stove that uses ethanol as fuel, which is environmentally friendly and locally produced from agricultural waste. The project promotes sustainable energy use and reduces reliance on non-renewable resources."
+      },
+      {
+        "name": "Agrisonic Farmers’ Aid",
+        "description": "An IoT device that provides real-time soil analysis and crop recommendations using machine learning. It helps farmers optimize crop choices by monitoring soil conditions like pH, moisture, and nutrient levels, with feedback delivered via a smartphone app."
+      },
+      {
+        "name": "Smart Baby Bag",
+        "description": "A digitalized bag that monitors a baby’s health conditions such as blood pressure, heart rate, and temperature in real time. This innovation aims to enhance infant safety and provide peace of mind to parents."
+      },
+      {
+        "name": "EcoSpin",
+        "description": "A project focused on transforming plastic waste into high-quality recycled yarn and artificial wool. EcoSpin uses energy-efficient processes to minimize carbon emissions and provide sustainable raw materials for the textile industry."
+      },
+      {
+        "name": "BOSS1 – Autonomous Delivery Robot",
+        "description": "An autonomous delivery robot targeting supermarkets and restaurants to reduce labor costs and save time. Equipped with sensors and machine learning algorithms, BOSS1 can navigate safely and deliver goods within indoor environments."
+      },
+      {
+        "name": "VirtuScope – VR Prototyping Platform",
+        "description": "A research project using Virtual Reality for embedded systems and robotics prototyping. It allows developers to design, simulate, and test robotic systems interactively in a virtual environment, reducing development time and costs."
+      },
+      {
+        "name": "ParkEase – Automated Parking Access Control System",
+        "description": "A web-based application that uses facial recognition and car plate recognition to automate parking access control. The system enhances security and efficiency by managing entry and exit processes in parking facilities."
+      }
+    ],
+
+
+
+    "skills": [
+      "Autonomous Robotics and Navigation Systems",
+      "Robot Operating System (ROS)",
+      "Simultaneous Localization and Mapping (SLAM)",
+      "Control System Engineering",
+      "Computer Vision (Object Detection, Facial Recognition)",
+      "Machine Learning and Deep Learning",
+      "Embedded Systems and Robotics",
+      "Data Analysis and Mathematical Modeling",
+      "Agile Programming Methodologies",
+      "Project Management and Planning",
+      "Mobile Application Development",
+      "Problem-Solving Skills",
+      "Data Structures and Algorithms",
+      "Programming Languages: Python, C/C++, Java"
+    ],
+
+    "hobbiesAndInterests": [
+      "Singing and composing songs",
+      "Solving mathematical problems and puzzles",
+      "Playing chess",
+      "Reading books and novels",
+      "Programming",
+      "Cooking"
+    ],
+
+    "languageProficiency": [
+      "English - Fluent",
+      "Luganda - Mother tongue",
+      "Tamil - Working knowledge",
+      "Hindi - Working knowledge"
+    ],
+
+
+    "references": [
+      {
+        "name": "Mukiibi Henry",
+        "position": "M&E Specialist",
+        "organization": "World Wide Fund (WWF)",
+        "phone": "+256779688728",
+        "email": "mukiibihenry76@gmail.com"
+      },
+      {
+        "name": "Dr. Margaret Naggwovuma",
+        "position": "Lecturer, PhD Information Systems",
+        "organization": "Makerere University",
+        "phone": "+256772308331",
+        "email": "maggien20099@gmail.com"
+      },
+      {
+        "name": "Mugisha Abbey",
+        "position": "M&E, GIS Specialist",
+        "organization": "WWF",
+        "phone": "+256775104910",
+        "email": "ab.mugisha@gmail.com"
+      },
+      {
+        "name": "Prof. Engineer Bainomugisha",
+        "position": "Chair, Department of Computer Science",
+        "organization": "Makerere University, Uganda",
+        "phone": "+256750990988",
+        "email": "baino@cis.mak.ac.ug"
+      }
+    ]
+
+  }
+}
