@@ -5,7 +5,7 @@ const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
 const notoSans = Noto_Sans({ subsets: ['latin'], variable: '--font-noto-sans' })
 
 export const metadata = {
-  title: 'Your Portfolio',
+  title: 'Jonathan Ssemakula',
   description: 'Personal portfolio website',
 }
 
