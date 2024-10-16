@@ -2,7 +2,7 @@
 cat << EOF > public/admin/config.yml
 backend:
   name: github
-  repo: your-github-username/portfolio-website
+  repo: ssemakulajonathan/jonathan-portfolio
   branch: main
 media_folder: public/images
 public_folder: /images
