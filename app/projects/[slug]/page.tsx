@@ -1,7 +1,14 @@
-import { getProject } from '@/lib/api'
+import { getProject, getProjects } from '@/lib/api'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Project } from '@/types'
+
+export async function generateStaticParams() {
+  const projects = await getProjects()
+  return projects.map((project) => ({
+    slug: project.slug,
+  }))
+}
 
 export default async function ProjectDetail({ params }: { params: { slug: string } }) {
   const project: Project | null = await getProject(params.slug)
@@ -42,11 +49,10 @@ export default async function ProjectDetail({ params }: { params: { slug: string
           <div className="mt-6">
             {/* /* <h3 className="text-[#0e141b] text-lg font-bold mb-2">Project Logo</h3> */}
             <div className="flex justify-center">
-              <Image src={project.logo} alt={`${project.title} logo`} width={150} height={150} className="rounded-lg" />
+              <Image src={project.logo} alt={`${project.title} logo`} width={150} height={100} className="rounded-lg" />
             </div>
           </div>
         )}
-
           <p className="text-[#0e141b] text-base font-normal leading-normal">{project.description}</p>
 
           <div className="space-y-4">
