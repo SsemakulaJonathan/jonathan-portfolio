@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Remove basePath and assetPrefix if you're using a custom domain
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/jonathan-portfolio' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/jonathan-portfolio' : '',
 }
 
 module.exports = nextConfig
