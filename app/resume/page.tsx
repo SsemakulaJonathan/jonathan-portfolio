@@ -215,15 +215,14 @@ export default async function Resume() {
         </section>
       </main>
 
-      <footer className="mt-auto">
+  <footer className="mt-auto">
         <div className="flex justify-center">
           <div className="flex flex-1 gap-3 flex-wrap px-4 py-3 max-w-[480px] justify-center">
-            <a href="/" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-transparent text-[#111418] text-base font-bold leading-normal tracking-[0.015em] grow">
+            <Link href="/" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-transparent text-[#111418] text-base font-bold leading-normal tracking-[0.015em] grow">
               <span className="truncate">Back to Profile</span>
-            </a>
+            </Link>
           </div>
         </div>
-        <div className="h-5 bg-white"></div>
       </footer>
     </div>
   )
