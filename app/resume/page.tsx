@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { getResumeData } from '@/lib/api'
 import { ResumeData } from '@/types'
 
