@@ -12,7 +12,7 @@
 
   "projects": [
     {
-      "slug": "project-1",
+      "slug": "agrisonic",
       "title": "Agrisonic",
       "description": "Agrisonic is a portable, cost-effective soil testing and crop recommendation device designed to help farmers improve their crop yields by providing real-time data on key soil parameters.",
       "image": "/images/agrisonic_background.jpeg",
@@ -28,7 +28,7 @@
     },
 
     {
-      "slug": "project-2",
+      "slug": "ecospin",
       "title": "EcoSpin",
       "description": "EcoSpin is dedicated to transforming plastic waste into high-quality recycled yarn and artificial wool, providing an alternative raw material for the textile industry while minimizing environmental impact.",
       "image": "/images/ecospin_b2.jpg",
