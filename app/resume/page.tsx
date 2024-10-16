@@ -1,50 +1,51 @@
 import { getResumeData } from '@/lib/api'
+import { ResumeData } from '@/types'
 
-// Define types for our resume data
-type Education = {
-  year: string
-  institution: string
-  qualification: string
-}
+// // Define types for our resume data
+// type Education = {
+//   year: string
+//   institution: string
+//   qualification: string
+// }
 
-type WorkExperience = {
-  company: string
-  position: string
-  date: string
-  description: string
-}
+// type WorkExperience = {
+//   company: string
+//   position: string
+//   date: string
+//   description: string
+// }
 
-type ConsultancyAssignment = {
-  date: string
-  organization: string
-  roleAndAssignment: string
-  referencePerson: string
-}
+// type ConsultancyAssignment = {
+//   date: string
+//   organization: string
+//   roleAndAssignment: string
+//   referencePerson: string
+// }
 
-type Project = {
-  name: string
-  description: string
-}
+// type Project = {
+//   name: string
+//   description: string
+// }
 
-type Reference = {
-  name: string
-  position: string
-  organization: string
-  phone: string
-  email: string
-}
+// type Reference = {
+//   name: string
+//   position: string
+//   organization: string
+//   phone: string
+//   email: string
+// }
 
-type ResumeData = {
-  education: Education[]
-  workExperience: WorkExperience[]
-  consultancyAssignments: ConsultancyAssignment[]
-  projectsWorkedOn: Project[]
-  ongoingProjects: Project[]
-  skills: string[]
-  hobbiesAndInterests: string[]
-  languageProficiency: string[]
-  references: Reference[]
-}
+// type ResumeData = {
+//   education: Education[]
+//   workExperience: WorkExperience[]
+//   consultancyAssignments: ConsultancyAssignment[]
+//   projectsWorkedOn: Project[]
+//   ongoingProjects: Project[]
+//   skills: string[]
+//   hobbiesAndInterests: string[]
+//   languageProficiency: string[]
+//   references: Reference[]
+// }
 
 export default async function Resume() {
   const resumeData: ResumeData = await getResumeData()
