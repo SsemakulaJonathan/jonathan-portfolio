@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700;900&display=swap');
 
 /* Your other global styles */
+
+/* Your other global styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

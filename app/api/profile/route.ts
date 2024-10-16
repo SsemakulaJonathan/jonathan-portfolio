@@ -7,6 +7,7 @@ export async function PUT(request: Request) {
     const updatedProfile = await updateProfile(data)
     return NextResponse.json(updatedProfile)
   } catch (error) {
+    console.error('Failed to update profile:', error)
     return NextResponse.json({ error: 'Failed to update profile' }, { status: 500 })
   }
 }
