@@ -1,7 +1,8 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Manrope, Noto_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
+const notoSans = Noto_Sans({ subsets: ['latin'], variable: '--font-noto-sans' })
 
 export const metadata = {
   title: 'Your Portfolio',
@@ -14,9 +15,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden" style={{fontFamily: 'Manrope, "Noto Sans", sans-serif'}}>
+    <html lang="en" className={`${manrope.variable} ${notoSans.variable}`}>
+      <body>
+        <div className="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden font-sans">
           {children}
         </div>
       </body>
