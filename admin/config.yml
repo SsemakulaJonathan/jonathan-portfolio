@@ -1,0 +1,26 @@
+# Create a basic content schema for Netlify CMS
+cat << EOF > public/admin/config.yml
+backend:
+  name: github
+  repo: your-github-username/portfolio-website
+  branch: main
+media_folder: public/images
+public_folder: /images
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Short Description", name: "shortDescription", widget: "text"}
+      - {label: "Problem", name: "problem", widget: "text"}
+      - {label: "Solution", name: "solution", widget: "text"}
+      - {label: "Market Opportunity", name: "marketOpportunity", widget: "text"}
+      - {label: "Business Model", name: "businessModel", widget: "text"}
+      - {label: "Funding Request", name: "fundingRequest", widget: "text"}
+      - {label: "Future Prospects", name: "futureProspects", widget: "text"}
+      - {label: "Team", name: "team", widget: "text"}
+EOF
