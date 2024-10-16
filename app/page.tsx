@@ -106,7 +106,7 @@ export default async function Home() {
             <Link href="/projects" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-[#f0f2f4] text-[#111418] text-base font-bold leading-normal tracking-[0.015em] grow">
               <span className="truncate">Projects</span>
             </Link>
-            <Link href="/resume" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-transparent text-[#111418] text-base font-bold leading-normal tracking-[0.015em] grow">
+            <Link href="/resume" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-[#f0f2f4] text-[#111418] text-base font-bold leading-normal tracking-[0.015em] grow">
               <span className="truncate">Resume</span>
             </Link>
           </div>
