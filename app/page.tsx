@@ -57,7 +57,7 @@ export default async function Home() {
 
         <section className="mt-8">
           <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3">About</h2>
-          <p className="text-[#111418] text-base font-normal leading-normal">{profile.about}</p>
+          <p className="text-[#111418] text-base font-normal leading-normal text-justify">{profile.about}</p>
         </section>
 
         <section className="mt-8">
