@@ -15,10 +15,17 @@ jobs:
           node-version: '18'
       - name: Install dependencies
         run: npm ci
+      - name: Set base path
+        run: |
+          if [ "${{ secrets.CUSTOM_DOMAIN }}" = "true" ]; then
+            echo "NEXT_PUBLIC_BASE_PATH=" >> $GITHUB_ENV
+          else
+            echo "NEXT_PUBLIC_BASE_PATH=/jonathan-portfolio" >> $GITHUB_ENV
+          fi
       - name: Build
         run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
